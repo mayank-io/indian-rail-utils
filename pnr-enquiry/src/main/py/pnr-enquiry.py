@@ -98,7 +98,7 @@ rows = iter(status_table[0])
 headers = [col.text for col in next(rows)]
 
 pnrStatus = PnrStatus()
-pnrStatus.pnr=enquired_pnr
+pnrStatus.pnr=pnr
 
 for row in rows:
     #{'* Current Status': 'CNF', 'S. No.': 'Passenger 1', 'Booking Status': 'CNF  ,GN'}
